@@ -1,0 +1,10 @@
+
+Delete node_modules folder from your project.
+
+Run npm install --global cross-env this command.
+
+Delete "cross-env": "^5.0.1", From package.json file devDependencies section.
+
+Run npm install --no-bin-links
+
+Now run npm run dev
